@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+
+
+
+
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -14,35 +20,35 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'SCDream9';
+  font-family: 'Open Sans', sans-serif;
   font-size: 4rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.4rem;
 }
 .display-2 {
-  font-family: 'SCDream9';
+  font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'SCDream9';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'SCDream9';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'SCDream9';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -635,7 +641,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'SCDream9';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -5614,6 +5620,12 @@ body {
   color: #232323;
 }
 .cid-rlm8tJe9uF .card-title B {
+  color: #20baed;
+}
+.cid-rlm8tJe9uF B {
+  color: #232323;
+}
+.cid-rlm8tJe9uF .col-right B {
   color: #20baed;
 }
 .cid-rlmKfVinWc {
