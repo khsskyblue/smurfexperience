@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -75,7 +75,7 @@
     "index.html": {
       "settings": {
         "meta_descr": "스머프 마을체험전 in korea",
-        "title": "index",
+        "title": "스머프 마을체험전 in Korea",
         "order": 2
       },
       "components": [
@@ -623,7 +623,7 @@
     "home.html": {
       "settings": {
         "main": true,
-        "title": "home",
+        "title": "스머프 마을체험전 in Korea",
         "meta_descr": "스머프 마을체험전 in korea",
         "header_custom": "",
         "footer_custom": "",
