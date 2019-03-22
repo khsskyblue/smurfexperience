@@ -1329,7 +1329,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/0361-5b20a88b46021-2000x1457.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1432,7 +1432,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/1920x1080-bruselas-pitufos-2018-3-1920x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
