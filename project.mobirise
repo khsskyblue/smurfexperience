@@ -1327,7 +1327,7 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "안녕!<br>난 벨기에서 온<br><b>스머프</b><br>",
+                "title": "Bonjour!<br>난 벨기에서 온<br><b>스머프</b><br>",
                 "overlay": false,
                 "contentAlign": "left",
                 "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
