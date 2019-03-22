@@ -18,7 +18,7 @@
         "display2Font": "Open Sans",
         "display2Size": 3,
         "display5Font": "Open Sans",
-        "display5Size": 1.5,
+        "display5Size": "1.5",
         "display7Font": "Open Sans",
         "display7Size": 1,
         "display4Font": "Open Sans",
@@ -1312,7 +1312,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/kids-smurf-experience-690x430.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1398,7 +1398,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/bruselas-pitufos-2018-3-800x534.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -4290,6 +4290,9 @@
             ".mbr-section-subtitle": {
               "text-align": "center",
               "color": "#ffffff"
+            },
+            "P": {
+              "text-align": "center"
             }
           },
           "_name": "services3",
