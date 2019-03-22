@@ -13,15 +13,15 @@
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Open Sans",
+        "display1Font": "Gothic A1",
         "display1Size": "4",
-        "display2Font": "Open Sans",
+        "display2Font": "Gothic A1",
         "display2Size": 3,
-        "display5Font": "Open Sans",
+        "display5Font": "Gothic A1",
         "display5Size": 1.5,
-        "display7Font": "Open Sans",
+        "display7Font": "Gothic A1",
         "display7Size": 1,
-        "display4Font": "Open Sans",
+        "display4Font": "Gothic A1",
         "display4Size": 1,
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
@@ -59,6 +59,11 @@
         "name": "PoetsenOne-Regular",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/PoetsenOne-Regular/font.ttf"
+      },
+      {
+        "css": "'Gothic A1', sans-serif",
+        "name": "Gothic A1",
+        "url": "https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900"
       }
     ],
     "uniqCompNum": 24,
@@ -1312,7 +1317,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/1920x1080-auto-nz-smurfs-1306181528924334-1920x1080.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1432,7 +1437,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/1920x1080-bruselas-pitufos-2018-3-1920x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1502,11 +1507,11 @@
               "color": "#767676"
             },
             ".mbr-text P": {
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>2019년 인간을 닮았고 인간처럼<span style=\"font-size: 1rem;\">생활하지만,&nbsp;</span><span style=\"font-size: 1rem;\">인간이 아니어서 여기서 유일하게 등장하는 인간인 가가멜을 두려워하고, 그의 고양이 아즈라엘을 겁낸다.</span></p><p>그 작고 파란 생물들이&nbsp;<span style=\"font-size: 1rem;\">깊은 숲&nbsp;</span><span style=\"font-size: 1rem;\">버섯마을에서&nbsp;</span><span style=\"font-size: 1rem;\">살아가는 모습은 어린이 시청자의 관심을 끌기에 충분했다.&nbsp;</span></p><p><span style=\"font-size: 1rem;\">프렌치-벨기에 만화사에서 빼놓을 수 없는 작가,&nbsp;</span><span style=\"font-size: 1rem;\">페요(피에르 컬리포드 Pierre Culliford, 1928~1992)가 반세기도 전에 창조한 특별한 캐릭터.</span></p><p><span style=\"font-size: 1rem;\">`스머프` 이야기 그리고 그들의 마을이 세워집니다.&nbsp;</span><span style=\"font-size: 1rem;\">빠르게 진행되는 모험의 과정에서 12 가지 정도의 독특한 경험을 제공 할 뛰어난 전시회입니다. </span></p><p><span style=\"font-size: 1rem;\">촉각,</span><span style=\"font-size: 1rem;\">청각,</span><span style=\"font-size: 1rem;\">&nbsp;대화형활동, gamifcation 및 교육을 통한 재미 있고 교육적인 오나전 몰입 형 여행 증강 현실 VR활동등,&nbsp;</span><span style=\"font-size: 1rem;\">가족의 가치에 초점을 맞출 수 있는 잊을 수&nbsp;</span><span style=\"font-size: 1rem;\">없는 가족 체험 전시경험</span><span style=\"font-size: 1rem;\">!&nbsp;</span><span style=\"font-size: 1rem;\">Smurfs: 우정, 관용, 연대, 타인과 자연에 대한 존중, 젊은 방문자가 드디어 꿈을 볼 수 있습니다.</span></p><p>Smurf 모험, 신발 및 자신을 Smurf 모험에 함께 참여하십시오.&nbsp;<span style=\"font-size: 1rem;\">이것은 스머프 (Smurfs) 창립 60 주년을 기념하는 행사 중 하나의 체험전 입니다.</span></p><p>황새를 타고 신비의 나라 스머프들의 세상으로 함께 가요 !!</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>2019년 인간을 닮았고 인간처럼<span style=\"font-size: 1rem;\">생활하지만,</span></p><p>인간이 아니어서 여기서 유일하게 등장하는 인간인 가가멜을 두려워하고, 그의 고양이 아즈라엘을 겁낸다.</p><p>그 작고 파란 생물들이 </p><p>깊은 숲&nbsp;<span style=\"font-size: 1rem;\">버섯마을에서&nbsp;</span><span style=\"font-size: 1rem;\">살아가는 모습은 어린이 시청자의 관심을 끌기에 충분했다.</span></p><p><span style=\"font-size: 1rem;\">프렌치-벨기에 만화사에서 빼놓을 수 없는 작가,</span></p><p><span style=\"font-size: 1rem;\">페요(피에르 컬리포드 &nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rkMiSOtgwk",
           "_anchor": "content1-o",
           "_protectedParams": [],
@@ -2447,7 +2452,7 @@
             "bgColorRadio": true,
             "bgColor": "#ffffff",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
@@ -3736,7 +3741,7 @@
           "_params": {}
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg",
           "_params": {
             "paddingTop": 0,
             "paddingBottom": 0,
@@ -3777,7 +3782,7 @@
             "bgColorRadio": false,
             "bgColor": "#fafafa",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
