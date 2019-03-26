@@ -6041,3 +6041,32 @@ body {
 .cid-rjWwxCRSdm .dropdown-item:hover {
   color: #ffffff !important;
 }
+.cid-rlPaGagnoU {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rlPaGagnoU .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rlPabKbfL6 {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rlPabKbfL6 .image-block {
+  margin: auto;
+}
+.cid-rlPabKbfL6 figcaption {
+  position: relative;
+}
+.cid-rlPabKbfL6 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rlPabKbfL6 .image-block {
+    width: 100% !important;
+  }
+}
