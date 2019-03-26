@@ -6094,3 +6094,24 @@ body {
     width: 100% !important;
   }
 }
+.cid-rlPeZ084S5 {
+  background: #20baed;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rlPeZ084S5 .image-block {
+  margin: auto;
+}
+.cid-rlPeZ084S5 figcaption {
+  position: relative;
+}
+.cid-rlPeZ084S5 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rlPeZ084S5 .image-block {
+    width: 100% !important;
+  }
+}
