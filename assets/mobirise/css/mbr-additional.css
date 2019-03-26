@@ -6070,3 +6070,27 @@ body {
     width: 100% !important;
   }
 }
+.cid-rlPd97MBZi {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rlPd97MBZi .image-block {
+  margin: auto;
+}
+.cid-rlPd97MBZi .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rlPd97MBZi figcaption {
+  position: relative;
+}
+.cid-rlPd97MBZi figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rlPd97MBZi .image-block {
+    width: 100% !important;
+  }
+}
