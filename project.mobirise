@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "index.html",
+    "currentPage": "limitededition.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5628,7 +5628,7 @@
         }
       ]
     },
-    "page7.html": {
+    "store.html": {
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "store",
