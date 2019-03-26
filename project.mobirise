@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "index.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,7 @@
         "file": "@PROJECT_PATH@/fonts/HMKMRHD/font.TTF"
       }
     ],
-    "uniqCompNum": 24,
+    "uniqCompNum": 25,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-64x64-64x64.png",
@@ -1318,7 +1318,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/1920x1080-auto-nz-smurfs-1306181528924334-1920x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1335,7 +1335,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/0361-5b20a88b46021-2000x1457.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
