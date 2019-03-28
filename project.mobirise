@@ -13,15 +13,15 @@
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Gothic A1",
+        "display1Font": "Open Sans",
         "display1Size": "4",
-        "display2Font": "Gothic A1",
+        "display2Font": "Open Sans",
         "display2Size": 3,
-        "display5Font": "Gothic A1",
+        "display5Font": "Open Sans",
         "display5Size": 1.5,
-        "display7Font": "Gothic A1",
+        "display7Font": "Open Sans",
         "display7Size": 1,
-        "display4Font": "Gothic A1",
+        "display4Font": "Open Sans",
         "display4Size": 1,
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
@@ -65,14 +65,9 @@
         "name": "HMKMRHD",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/HMKMRHD/font.TTF"
-      },
-      {
-        "css": "'Gothic A1', sans-serif",
-        "name": "Gothic A1",
-        "url": "https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900"
       }
     ],
-    "uniqCompNum": 26,
+    "uniqCompNum": 24,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-64x64-64x64.png",
@@ -2354,13 +2349,13 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#20baed\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"map.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>더 알아보기 →</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#20baed\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"map.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>오시는 길 →</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rlZYCGfo9U",
+          "_anchor": "content8-p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-p"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7839,11 +7834,11 @@
           "_name": "menu2",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#20baed\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"home.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/schtroumpf-experience-logo-en-white-122x68.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                        스머프 마을 체험전</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"home.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">홈</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"informations.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        정보</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"news.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        뉴스</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">이벤트</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"store.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">공식스토어</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"limitededition.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">한정판굿즈</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"ticket.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-credit-card mbr-iconfont mbr-iconfont-btn\"></span>티켓준비중 →</a> <a class=\"btn btn-sm btn-success\" href=\"index.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>톡문의 →</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rjWwxCRSdm",
+          "_anchor": "menu2-o",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu2-o"
+          "_params": {}
         }
       ]
     }
