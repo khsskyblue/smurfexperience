@@ -1626,7 +1626,7 @@
               "color": "#ffffff"
             },
             "DIV": {
-              "text-align": "center"
+              "text-align": "left"
             }
           },
           "_name": "image1",
