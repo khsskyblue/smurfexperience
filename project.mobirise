@@ -1624,6 +1624,9 @@
             },
             "B": {
               "color": "#ffffff"
+            },
+            "DIV": {
+              "text-align": "center"
             }
           },
           "_name": "image1",
