@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "openingtimes.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,7 @@
         "file": "@PROJECT_PATH@/fonts/HMKMRHD/font.TTF"
       }
     ],
-    "uniqCompNum": 27,
+    "uniqCompNum": 28,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-64x64-64x64.png",
@@ -1590,6 +1590,46 @@
         {
           "alias": false,
           "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/smurfs-line-up-48433-1349x348.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rlYXLjjdZU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image1-r"
+        },
+        {
+          "alias": false,
+          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
@@ -1601,7 +1641,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>2019년 인간을 닮았고 인간처럼<span style=\"font-size: 1rem;\">생활하지만,&nbsp;</span><span style=\"font-size: 1rem;\">인간이 아니어서 여기서 유일하게 등장하는 인간인 가가멜을 두려워하고, 그의 고양이 아즈라엘을 겁낸다.</span></p><p>그 작고 파란 생물들이&nbsp;<span style=\"font-size: 1rem;\">깊은 숲&nbsp;</span><span style=\"font-size: 1rem;\">버섯마을에서&nbsp;</span><span style=\"font-size: 1rem;\">살아가는 모습은 어린이 시청자의 관심을 끌기에 충분했다.&nbsp;</span><span style=\"font-size: 1rem;\">프렌치-벨기에 만화사에서 빼놓을 수 없는 작가,</span></p><p><span style=\"font-size: 1rem;\">페요(피에르 컬리포드 &nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>2019년 인간을 닮았고 인간처럼<span style=\"font-size: 1rem;\">생활하지만,&nbsp;</span><span style=\"font-size: 1rem;\">인간이 아니어서 여기서 유일하게 등장하는 인간인 가가멜을 두려워하고, 그의 고양이 아즈라엘을 겁낸다.</span></p><p>그 작고 파란 생물들이&nbsp;<span style=\"font-size: 1rem;\">깊은 숲&nbsp;</span><span style=\"font-size: 1rem;\">버섯마을에서&nbsp;</span><span style=\"font-size: 1rem;\">살아가는 모습은 어린이 시청자의 관심을 끌기에 충분했다.&nbsp;</span><span style=\"font-size: 1rem;\">프렌치-벨기에 만화사에서 빼놓을 수 없는 작가,&nbsp;</span><span style=\"font-size: 1rem;\">페요(피에르 컬리포드 Pierre Culliford, 1928~1992)가 반세기도 전에 창조한 특별한 캐릭터, 스머프` 이야기 그리고 그들의 마을이 세워집니다.</span></p><p><span style=\"font-size: 1rem;\">빠르게 진행되는 모험의 과정에서 12가지 정도의 독특한 경험을 제공 할 뛰어난 전시회입니다. 촉각, 청각, 대화형 활동, gamification 및 교육을 통한 재미 있고 교육적인 완전 몰입 형 여행 증강 현실 VR활동등, 가족의 가치에 초점을 맞출 수 있는 잊을 수 없는 가족 체험 전시경험!!</span></p><p>Smurfs: 우정, 관용, 연대, 타인과 자연에 대한 존중, 젊은 방문자가 드디어 꿈을 볼 수 있습니다.<span style=\"font-size: 1rem;\">Smurf 모험, 신발 및 자신을 &nbsp;Smurf 모험에 참여하십시오.</span></p><p>이것은 스머프 (Smurfs) 창립 60주년을 기념하는 행사 중 하나의 체험전 입니다. 황새를 타고 신비의 나라 스머프들의 세상으로 함꼐 가요!!</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rkMiSOtgwk",
           "_anchor": "content1-o",
           "_protectedParams": [],
