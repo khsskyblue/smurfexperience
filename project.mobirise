@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "map.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -72,7 +72,7 @@
         "url": "https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900"
       }
     ],
-    "uniqCompNum": 27,
+    "uniqCompNum": 24,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-64x64-64x64.png",
@@ -1551,11 +1551,11 @@
               "color": "#767676"
             },
             ".mbr-text P": {
-              "text-align": "center"
+              "text-align": "left"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>2019년 인간을 닮았고 인간처럼<span style=\"font-size: 1rem;\">생활하지만,</span></p><p>인간이 아니어서 여기서 유일하게 등장하는 인간인 가가멜을 두려워하고, 그의 고양이 아즈라엘을 겁낸다.</p><p>그 작고 파란 생물들이&nbsp;<span style=\"font-size: 1rem;\">깊은 숲&nbsp;</span><span style=\"font-size: 1rem;\">버섯마을에서&nbsp;</span><span style=\"font-size: 1rem;\">살아가는 모습은 어린이 시청자의 관심을 끌기에 충분했다.</span></p><p><span style=\"font-size: 1rem;\">프렌치-벨기에 만화사에서 빼놓을 수 없는 작가,</span></p><p><span style=\"font-size: 1rem;\">페요(피에르 컬리포드 &nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>2019년 인간을 닮았고 인간처럼<span style=\"font-size: 1rem;\">생활하지만,&nbsp;</span><span style=\"font-size: 1rem;\">인간이 아니어서 여기서 유일하게 등장하는 인간인 가가멜을 두려워하고, 그의 고양이 아즈라엘을 겁낸다.</span></p><p>그 작고 파란 생물들이&nbsp;<span style=\"font-size: 1rem;\">깊은 숲&nbsp;</span><span style=\"font-size: 1rem;\">버섯마을에서&nbsp;</span><span style=\"font-size: 1rem;\">살아가는 모습은 어린이 시청자의 관심을 끌기에 충분했다.&nbsp;</span><span style=\"font-size: 1rem;\">프렌치-벨기에 만화사에서 빼놓을 수 없는 작가,</span></p><p><span style=\"font-size: 1rem;\">페요(피에르 컬리포드 &nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rkMiSOtgwk",
           "_anchor": "content1-o",
           "_protectedParams": [],
@@ -6677,11 +6677,11 @@
           "_name": "map1",
           "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJnWGvVEaFfDURsD4we8zeTQE\" value=\"고양꽃전시관\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
           "_cid": "rlVFRq80Pl",
+          "_anchor": "map1-q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "map1-q"
+          "_params": {}
         },
         {
           "alias": false,
