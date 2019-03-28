@@ -86,8 +86,8 @@
   "pages": {
     "index.html": {
       "settings": {
-        "meta_descr": "스머프 마을체험전 in korea",
-        "title": "스머프 마을체험전 in Korea",
+        "meta_descr": "홈",
+        "title": "홈",
         "order": 3
       },
       "components": [
@@ -2795,8 +2795,8 @@
     },
     "informations.html": {
       "settings": {
-        "meta_descr": "스머프 마을체험전 in korea",
-        "title": "informations",
+        "meta_descr": "정보",
+        "title": "정보",
         "order": 6
       },
       "components": [
@@ -3538,8 +3538,8 @@
     },
     "news.html": {
       "settings": {
-        "meta_descr": "스머프 마을체험전 in korea",
-        "title": "news",
+        "meta_descr": "뉴스",
+        "title": "뉴스",
         "order": 4
       },
       "components": [
@@ -4083,8 +4083,8 @@
     },
     "ticket.html": {
       "settings": {
-        "meta_descr": "스머프 마을체험전 in korea",
-        "title": "ticket",
+        "meta_descr": "티켓",
+        "title": "티켓",
         "order": 5
       },
       "components": [
@@ -4652,8 +4652,8 @@
     },
     "event.html": {
       "settings": {
-        "meta_descr": "스머프 마을체험전 in korea",
-        "title": "event",
+        "meta_descr": "이벤트",
+        "title": "이벤트",
         "order": 7
       },
       "components": [
@@ -5203,8 +5203,8 @@
     },
     "limitededition.html": {
       "settings": {
-        "meta_descr": "스머프 마을체험전 in korea",
-        "title": "limitededition",
+        "meta_descr": "한정판굿즈",
+        "title": "한정판굿즈",
         "order": 9
       },
       "components": [
@@ -5825,8 +5825,8 @@
     },
     "store.html": {
       "settings": {
-        "meta_descr": "Web Generator Description",
-        "title": "store",
+        "meta_descr": "공식스토어",
+        "title": "공식스토어",
         "order": 8
       },
       "components": [
@@ -6395,8 +6395,8 @@
     },
     "map.html": {
       "settings": {
-        "meta_descr": "Web Site Creator Description",
-        "title": "map",
+        "meta_descr": "스머프 마을체험전 오시는 길",
+        "title": "오시는 길",
         "order": 10
       },
       "components": [
@@ -6939,8 +6939,8 @@
     },
     "openingtimes.html": {
       "settings": {
-        "meta_descr": "openingtimes",
-        "title": "openingtimes",
+        "meta_descr": "개관시간",
+        "title": "개관시간",
         "order": 2
       },
       "components": [
@@ -7422,10 +7422,10 @@
         }
       ]
     },
-    "page10.html": {
+    "smurftv.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "smurftv",
+        "meta_descr": "스머프TV",
+        "title": "스머프TV",
         "order": 1
       },
       "components": [
