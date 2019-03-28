@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "informations.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1340,7 +1340,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/0361-5b20a88b46021-2000x1457.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1531,7 +1531,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/schtroumpfexperience-interactive-immerssive-exhibition-3d-projection-mapping-vr-dirtymonitor-2-1920x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
