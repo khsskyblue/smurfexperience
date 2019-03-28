@@ -2433,6 +2433,27 @@ body {
 .cid-rjWzUdQjvB .mbr-section-subtitle B {
   color: #20baed;
 }
+.cid-rlYZFPF3Nq {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rlYZFPF3Nq .image-block {
+  margin: auto;
+}
+.cid-rlYZFPF3Nq figcaption {
+  position: relative;
+}
+.cid-rlYZFPF3Nq figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rlYZFPF3Nq .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rlYXLjjdZU {
   background: #ffffff;
   padding-top: 60px;
