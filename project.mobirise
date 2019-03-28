@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "time.html",
+    "currentPage": "openingtimes.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -6788,10 +6788,10 @@
         }
       ]
     },
-    "time.html": {
+    "openingtimes.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
-        "title": "time",
+        "meta_descr": "openingtimes",
+        "title": "openingtimes",
         "order": 1
       },
       "components": [
