@@ -2460,6 +2460,27 @@ body {
 .cid-rlYZFPF3Nq DIV {
   text-align: center;
 }
+.cid-rlZ9LIINJq {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rlZ9LIINJq .image-block {
+  margin: auto;
+}
+.cid-rlZ9LIINJq figcaption {
+  position: relative;
+}
+.cid-rlZ9LIINJq figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rlZ9LIINJq .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rlYXLjjdZU {
   background: #ffffff;
   padding-top: 60px;
