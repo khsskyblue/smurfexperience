@@ -3591,7 +3591,9 @@ body {
   color: #ffffff !important;
 }
 .cid-rk6wzZ9DAh {
-  background-image: url("../../../assets/images/fond-homepage-1920x764.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #20baed;
 }
 .cid-rk6xBqpmTY {
   background: #ffffff;
