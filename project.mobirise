@@ -9,7 +9,7 @@
         "primaryColor": "#149dcc",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
-        "infoColor": "#82786E",
+        "infoColor": "#03c75a",
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
@@ -28,7 +28,8 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#20baed"
+        "#20baed",
+        "#03c75a"
       ]
     },
     "path": "@PROJECT_PATH@",
