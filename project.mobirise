@@ -81,8 +81,8 @@
   "pages": {
     "index.html": {
       "settings": {
-        "meta_descr": "홈",
-        "title": "홈",
+        "meta_descr": "The Smurf Experience | Your immersive experience in Brussels",
+        "title": "스머프 익스피리언스",
         "order": 5
       },
       "components": [
