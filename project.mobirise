@@ -1320,7 +1320,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/60279182-372075523407040-6923082501959188480-n-930x620.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1580,6 +1580,23 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/schtroumpfexperience-interactive-immerssive-exhibition-3d-projection-mapping-vr-dirtymonitor-1-1920x1080.jpg",
                 "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Bonjour! <br>난 벨기에서 온<br><b>스머프</b><br>",
+                "overlay": false,
+                "contentAlign": "left",
+                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/la-schtroumpf-experience-4155419397667546516-4-600x400.jpg",
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
