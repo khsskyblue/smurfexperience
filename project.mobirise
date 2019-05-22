@@ -1320,7 +1320,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/60279182-372075523407040-6923082501959188480-n-930x620.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -1596,7 +1596,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/la-schtroumpf-experience-4155419397667546516-4-600x400.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
