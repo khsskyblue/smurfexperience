@@ -2041,10 +2041,6 @@ body {
 .cid-rjWwxCRSdm .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
-.cid-rjWwxCRSdm .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-.cid-rjWwxCRSdm .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
-  margin-bottom: 1rem;
-}
 .cid-rjWwxCRSdm .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rjWwxCRSdm .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -2139,10 +2135,6 @@ body {
   .cid-rjWwxCRSdm .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rjWwxCRSdm .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
-  }
-  .cid-rjWwxCRSdm .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-rjWwxCRSdm .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
   }
   .cid-rjWwxCRSdm .navbar-collapse.collapsing .navbar-buttons,
   .cid-rjWwxCRSdm .navbar-collapse.show .navbar-buttons {
@@ -6217,6 +6209,11 @@ body {
 }
 .cid-rlVFRq80Pl .google-map[data-state="loading"] [data-state-details] {
   display: none;
+}
+.cid-rsOWxr6eV1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 .cid-rm5yT8oSsr {
   padding-top: 60px;
