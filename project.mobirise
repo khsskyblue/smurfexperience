@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "smurfexkorea",
-    "currentPage": "home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -83,7 +83,7 @@
     "index.html": {
       "settings": {
         "meta_descr": "",
-        "title": "스머프 익스피리언스 | 홈",
+        "title": "스머프 익스피리언스 | 서울에서의 스머프 마을 체험전.",
         "order": 1
       },
       "components": [
